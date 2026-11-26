@@ -1,0 +1,38 @@
+/* Wattle Ridge Run — page styles. The game itself draws everything on the
+   canvas; this just centres it on a dark sky-coloured page. */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0a1626;
+  color: #e8eef4;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.stage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+#game {
+  display: block;
+  max-width: 100%;
+  border: 2px solid #2a4a6b;
+  border-radius: 6px;
+  background: #101c2c;
+  cursor: pointer;
+}
+
+.hint {
+  margin: 0;
+  font-size: 14px;
+  color: #9fb4c8;
+  text-align: center;
+  max-width: 900px;
+}
